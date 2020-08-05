@@ -28,6 +28,7 @@ We create two lists – Open List and Closed List (just like Dijkstra Algorithm)
     list (you can leave its f at zero)
 
 3.  while the open list is not empty
+    
     a) find the node with the least f on 
        the open list, call it "q"
 
@@ -37,6 +38,7 @@ We create two lists – Open List and Closed List (just like Dijkstra Algorithm)
        parents to q
    
     d) for each successor
+
         i) if successor is the goal, stop search
           successor.g = q.g + distance between 
                               successor and q
